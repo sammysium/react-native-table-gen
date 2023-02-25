@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component MyCurrency renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#000",
+      "marginBottom": 4,
+      "marginRight": 10,
+    }
+  }
+>
+  rwf 2,989.00
+</Text>
+`;

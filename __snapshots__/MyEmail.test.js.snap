@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component MyEmail renders correctly 1`] = `
+<Text
+  onPress={[Function]}
+  style={
+    Object {
+      "color": "#00f",
+      "marginBottom": 4,
+      "marginRight": 10,
+    }
+  }
+>
+  email@example.com
+</Text>
+`;

@@ -1,0 +1,51 @@
+{
+  "name": "react-native-table-gen",
+  "version": "1.0.2",
+  "description": "React-native table generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "react-native",
+    "table"
+  ],
+  "author": "Sammy Sium (kmsium@gmail.com)",
+  "license": "ISC",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.7.0",
+    "react-native": "^0.57.8"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-plugin-import-rename": "^1.0.1",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "^26.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-native": "^0.63.1",
+    "react-native-testing-library": "^2.1.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "coverageReporters": [
+      "text",
+      "cobertura",
+      "lcov",
+      "json"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native))"
+    ]
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
